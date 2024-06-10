@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, usedPrefix, command, text }) => {
-  if (!text) throw `exαmple : ${usedPrefix + command} https://vt.tiktok.com/ZSFKS4DN9/`
+  if (!text) throw `مثال : \n${usedPrefix + command} https://vt.tiktok.com/ZSFKS4DN9/`
   conn.sendMessage(m.chat, { react: { text: '🕐', key: m.key }})
   let kiku = await fetch(`https://aemt.me/download/ttdl?url=${text}`) 
   try {
