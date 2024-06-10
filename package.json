@@ -72,6 +72,7 @@
     "yt-search":"*",
     "ytdl-core":"*",
     "gemini-ai":"*",
+    "node-gtts":"*",
     "yargs": "^17.7.1"
   }
 }
