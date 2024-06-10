@@ -27,8 +27,8 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
     if (!arrayMenu.includes(teks)) teks = '404'
     if (teks == 'all') tags = {
         'drawing': 'drawing',
-        'Ai': 'Ai',
-        'Downloader': 'Downloader',
+        'ai': 'ai',
+        'downloader': 'downloader',
         'image-edit':'image-edit',
         'sticker': 'sticker',
         'search': 'search',
