@@ -73,6 +73,7 @@
     "ytdl-core":"*",
     "gemini-ai":"*",
     "node-gtts":"*",
+    "path":"*",
     "yargs": "^17.7.1"
   }
 }
