@@ -1,0 +1,217 @@
+{
+  "users": {
+    "6282228545461@s.whatsapp.net": {
+      "exp": 0,
+      "limit": 0
+    },
+    "6282285357346@s.whatsapp.net": {
+      "exp": null,
+      "limit": null,
+      "delay": 1709519073082
+    },
+    "212717457920@s.whatsapp.net": {
+      "exp": 1206,
+      "limit": 0,
+      "delay": 1711118251635
+    },
+    "212693227969@s.whatsapp.net": {
+      "exp": 21,
+      "limit": 0
+    },
+    "120363270153919557@g.us": {
+      "exp": 6,
+      "limit": 0
+    },
+    "212690552925@s.whatsapp.net": {
+      "exp": 10,
+      "limit": 0
+    }
+  },
+  "chats": {
+    "6282228545461@s.whatsapp.net": {
+      "isBanned": false,
+      "antiSpam": true,
+      "acc": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": false,
+      "antiLink": false,
+      "antiCall": true,
+      "antiFoto": false,
+      "antiVideo": false,
+      "antiSticker": false,
+      "antiAudio": false,
+      "viewonce": false,
+      "antiBadword": false,
+      "simi": false,
+      "expired": 0,
+      "rpgs": false,
+      "games": false
+    },
+    "6282285357346@s.whatsapp.net": {
+      "isBanned": false,
+      "antiSpam": true,
+      "acc": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": false,
+      "antiLink": false,
+      "antiCall": true,
+      "antiFoto": false,
+      "antiVideo": false,
+      "antiSticker": false,
+      "antiAudio": false,
+      "viewonce": false,
+      "antiBadword": false,
+      "simi": false,
+      "expired": 0,
+      "rpgs": false,
+      "games": false
+    },
+    "212717457920@s.whatsapp.net": {
+      "isBanned": false,
+      "antiSpam": true,
+      "acc": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": false,
+      "antiLink": false,
+      "antiCall": true,
+      "antiFoto": false,
+      "antiVideo": false,
+      "antiSticker": false,
+      "antiAudio": false,
+      "viewonce": false,
+      "antiBadword": false,
+      "simi": false,
+      "expired": 0,
+      "rpgs": false,
+      "games": false
+    },
+    "120363270153919557@g.us": {
+      "isBanned": false,
+      "antiSpam": true,
+      "acc": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": false,
+      "antiLink": false,
+      "antiCall": true,
+      "antiFoto": false,
+      "antiVideo": false,
+      "antiSticker": false,
+      "antiAudio": false,
+      "viewonce": false,
+      "antiBadword": false,
+      "simi": false,
+      "expired": 0,
+      "rpgs": false,
+      "games": false,
+      "delay": 1711118245790
+    },
+    "212693227969@s.whatsapp.net": {
+      "isBanned": false,
+      "antiSpam": true,
+      "acc": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": false,
+      "antiLink": false,
+      "antiCall": true,
+      "antiFoto": false,
+      "antiVideo": false,
+      "antiSticker": false,
+      "antiAudio": false,
+      "viewonce": false,
+      "antiBadword": false,
+      "simi": false,
+      "expired": 0,
+      "rpgs": false,
+      "games": false
+    }
+  },
+  "stats": {
+    "own-exec.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1709518806411,
+      "lastSuccess": 1709518806411
+    },
+    "own-exec2.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1709519073082,
+      "lastSuccess": 1709519073082
+    },
+    "s.js": {
+      "total": 30,
+      "success": 30,
+      "last": 1711118251635,
+      "lastSuccess": 1711118251635
+    },
+    "bard.js": {
+      "total": 7,
+      "success": 2,
+      "last": 1711117345890,
+      "lastSuccess": 1711117345890
+    },
+    "enable.js": {
+      "total": 5,
+      "success": 5,
+      "last": 1711118245790,
+      "lastSuccess": 1711118245790
+    }
+  },
+  "msgs": {},
+  "sticker": {},
+  "settings": {
+    "6282228545461@s.whatsapp.net": {
+      "self": false,
+      "autoread": true,
+      "autoBio": false,
+      "antiCall": true,
+      "restrict": true,
+      "image": true,
+      "gif": false,
+      "teks": false,
+      "doc": false,
+      "loc": false,
+      "autorestart": false
+    },
+    "212693227969@s.whatsapp.net": {
+      "self": false,
+      "autoread": true,
+      "autoBio": false,
+      "antiCall": true,
+      "restrict": true,
+      "image": true,
+      "gif": false,
+      "teks": false,
+      "doc": false,
+      "loc": false,
+      "autorestart": false
+    }
+  },
+  "menfess": {},
+  "simulator": {}
+}
