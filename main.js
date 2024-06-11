@@ -1,5 +1,8 @@
 /*
-thanks tio
+wa.me/6282285357346
+github: https://github.com/sadxzyq
+Instagram: https://instagram.com/tulisan.ku.id
+ini wm gw cok jan di hapus
 */
 
 import './config.js'
@@ -187,7 +190,7 @@ const connectionOptions = {
     }),
     auth: state,
     browser: ['Linux', 'Chrome', ''],
-    version: [2, 3000, 1013780141],
+    version: [2, 2413, 51],
     getMessage: async (key) => {
         let jid = jidNormalizedUser(key.remoteJid)
         let msg = await store.loadMessage(jid, key.id)
@@ -297,7 +300,7 @@ async function connectionUpdate(update) {
     // console.log(JSON.stringify(update, null, 4))
     if (global.db.data == null) loadDatabase()
     if (connection === "open") {
-    console.log(chalk.bgGreen(chalk.white('bot online');
+    console.log(chalk.bgGreen(chalk.white('The bot is ON')));
     }
     if (connection == 'close') {
         console.log(chalk.yellow(`📡 Connection has been lost. delete the session and retake the session to run the Bot`));
