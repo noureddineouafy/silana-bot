@@ -297,7 +297,7 @@ async function connectionUpdate(update) {
     // console.log(JSON.stringify(update, null, 4))
     if (global.db.data == null) loadDatabase()
     if (connection === "open") {
-    console.log(chalk.bgGreen(chalk.white('البوت متصل')));
+    console.log(chalk.bgGreen(chalk.white('silana bot is online');
     }
     if (connection == 'close') {
         console.log(chalk.yellow(`📡 Connection has been lost. delete the session and retake the session to run the Bot`));
