@@ -71,6 +71,7 @@
     "pretty-ms": "^7.0.1",
     "yt-search":"*",
     "ytdl-core":"*",
+    "@bochilteam/scraper":"*",
     "yargs": "^17.7.1"
   }
 }
