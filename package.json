@@ -70,6 +70,7 @@
     "xmldom": "^0.6.0",
     "pretty-ms": "^7.0.1",
     "yt-search":"*",
+    "gemini-ai": "*",
     "ytdl-core":"*",
     "@bochilteam/scraper":"*",
     "yargs": "^17.7.1"
