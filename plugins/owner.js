@@ -3,21 +3,17 @@ let handler = async (m, { conn }) => {
   let caption = `
 *「 معلومات عن صاحب البوت 」*
 
-*Number :*\nwa.me/212717457920
-*instagram:*\ninstagram.com/noureddine_ouafy
+*Number :*\nwa.me/201028085788
 
-*youtube:*\nyoutube.com/@noureddineouafy2
+*youtube:*\nhttps://www.youtube.com/@Elakrab
 
-*facebook page:*\nwww.facebook.com/profile.php?id=100063533185520
-
-*script bot :* github.com/noureddineouafy
 
 `.trim()
   m.reply(caption)
 }
 handler.help = ['owner']
 handler.tags = ['infobot']
-handler.command = /^(owner)$/i
+handler.command = /^(المطور)$/i
 handler.limit = false
 
 export default handler
