@@ -33,7 +33,7 @@ const time = tz('Africa/casablanca').format('HH:mm:ss');
 const currentFilePath = new URL(import.meta.url).pathname;
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
-let bot_ku = 'SILANA BOT'
+let bot_ku = 'ELAKRAB BOT'
 say(bot_ku, {
   font: "simpleBlock",
   align: "center",
