@@ -13,7 +13,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['delowner']
 handler.tags = ['owner']
-handler.command = /^delowner$/i
+handler.command = /^ازالة$/i
 
 handler.owner = true
 
