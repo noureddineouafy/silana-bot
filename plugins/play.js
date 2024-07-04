@@ -134,7 +134,7 @@ let handler = async (m, {
 }
 handler.help = ["play"]
 handler.tags = ["downloader"]
-handler.command = /^(play|ytmp3)$/i
+handler.command = /^(شغل|ytmp3)$/i
 
 export default handler
 
