@@ -9,20 +9,20 @@ global.setting = {
  }
 
 global.owner = [
-['212717457920', 'Nour', true],
-['212605784394', 'imillie', false],
-['212693227969', '8bal', false]
+['201028085788', 'ELAKRAB ELYOTUBER ', true],
+['201028085788', 'ELAKRAB ELYOTUBER', false],
+['201028085788', 'ELAKRAB ELYOTUBER', false]
 ]
 
 global.info = {
- nomerbot: '212605784394',
- pairingNumber: '212693227969',
- nameown: 'Nour',
- nomerown: '212717457920',
+ nomerbot: '201028085788',
+ pairingNumber: '201028085788',
+ nameown: 'ELAKRAB ELYOTUBER',
+ nomerown: '201028085788',
  packname: 'sticker by ',
- author: 'Noureddine',
+ author: 'ELAKRAB ELYOTUBER',
  namebot: 'ꜱɪʟᴀɴᴀ',
- wm: ''-'_꩜ 𝘚𝘪𝘭𝘢𝘯𝘢 𝘣𝘰𝘵 ꩜_'-'',
+ wm: ''-'_꩜ ELAKRAB ELYOTUBER ꩜_'-'',
  stickpack: 'Whatsapp',
  stickauth: 'ꜱɪʟᴀɴᴀ ʙᴏᴛ '
 }
@@ -46,9 +46,9 @@ global.url = {
 
 // Sosmed
 global.url = {
- sig: 'https://instagram.com/noureddine_ouafy',
- sgh:  'https://github.com/noureddineouafy',
- sgc: 'https://chat.whatsapp.com/DABxracGsi5CQMd5d1N1j7'
+ sig: 'https://atom.bio/elakrabelyotyobr',
+ sgh:  'https://www.youtube.com/@Elakrab',
+ sgc: 'https://whatsapp.com/channel/0029VahbMZl4tRrkdpJrCv2f'
 }
 
 // Info Wait
