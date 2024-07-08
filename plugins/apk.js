@@ -29,7 +29,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   );
 };
 
-handler.command = /^(apk)$/i;
+handler.command = /^(تطبيق)$/i;
 handler.help = ['apk'];
 handler.tags = ['downloader'];
 handler.premium = false
