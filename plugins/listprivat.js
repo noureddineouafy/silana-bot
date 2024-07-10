@@ -36,6 +36,6 @@ let handler = async (m, {
 
 handler.help = ['listprivat']
 handler.tags = ['owner']
-handler.command = ['listprivat']
+handler.command = ['الان']
 handler.owner = true
 export default handler

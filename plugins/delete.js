@@ -11,7 +11,7 @@ const handler = async (m, { conn, command }) => {
 
 handler.help = ['delete'];
 handler.tags = ['owner'];
-handler.command = /^(delete)$/i;
+handler.command = /^(حذف)$/i;
 handler.admin = true;
 
 export default handler;

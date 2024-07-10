@@ -7,12 +7,12 @@ export async function before(m) {
         return false;
     }
     let jadwalSholat = {
-        الفجر: "06:39",
-        الضحى: "08:10",
-        الظهر: "13:41",
-        العصر: "16:50",
-        المغرب: "19:15",
-        العشاء: "20:33"
+        الفجر: "04:17",
+        الضحى: "06:00",
+        الظهر: "13:00",
+        العصر: "16:36",
+        المغرب: "19:59",
+        العشاء: "20:31"
     };
     const date = new Date(new Date().toLocaleString("en-US", {
       timeZone:"Africa/Casablanca"
@@ -22,7 +22,7 @@ export async function before(m) {
     const timeNow = `${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}`;
     for (const [sholat, waktu] of Object.entries(jadwalSholat)) {
         if (timeNow === waktu) {
-            let caption = `السلام  عليكم   *${name}*,\nحان موعد صلاة *${sholat}* اذهب و توضأ بسرعة و قم لصلاتك ♥ ولا تنسانا من الدعاء.\n\n*${waktu}*\n_هذا توقيت الصلاة في الرباط وما جاورها_`;
+            let caption = `السلام  عليكم   *${name}*,\nحان موعد صلاة *${sholat}* اذهب و توضأ بسرعة و قم لصلاتك ♥ ولا تنسانا من الدعاء.\n\n*${waktu}*\n_هذا توقيت الصلاة في بلدك وما جاورها_`;
             this.autosholat[id] = [
                 this.reply(m.chat, caption, null),
                 setTimeout(() => {

@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
 
 handler.menuowner = ['delppbot']
 handler.tagsowner = ['owner']
-handler.command = /^(delppbot)$/i
+handler.command = /^(حذف-بروفايل)$/i
 
 handler.rowner = true
 

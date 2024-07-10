@@ -39,7 +39,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
 
 handler.help = ['setpp']
 handler.tags = ['owner']
-handler.command = /^(setpp)$/i
+handler.command = /^(بروفايل-البوت)$/i
 
 handler.owner = true
 

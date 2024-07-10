@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text }) => {
-  if (!text) throw `هذا الامر يمكنك من خلاله ان تغير البيو الخاص ببوتك ♥ هذا الامر يشتغل فقط عند صاحب البوت اكتب هكذا \n*.setbio hello im nour bot*`
+  if (!text) throw `هذا الامر يمكنك من خلاله ان تغير البيو الخاص ببوتك ♥ هذا الامر يشتغل فقط عند صاحب البوت اكتب هكذا \n*.تغيير حط الي عايز تكتبو*`
     try {
    await conn.updateProfileStatus(text).catch(_ => _)
    conn.reply(m.chat, 'تم تغيير Bio  البوت  بنجاح', m)
@@ -9,7 +9,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['setbio']
 handler.tags = ['owner']
-handler.command = /^(setbio)$/i
+handler.command = /^(تغيير)$/i
 handler.owner = true
 
 export default handler

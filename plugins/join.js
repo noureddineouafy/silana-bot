@@ -15,6 +15,6 @@ let handler = async (m, { conn, text }) => {
 };
 handler.help = ["join"];
 handler.tags = ["owner"];
-handler.command = ["join"];
+handler.command = ["انضم"];
 handler.premium = false;
 export default handler ;

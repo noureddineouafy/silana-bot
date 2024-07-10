@@ -72,7 +72,7 @@ let handler = async (m, {
 }
 handler.help = ["dafonts"]
 handler.tags = ["downloader"]
-handler.command = /^(dafonts)$/i
+handler.command = /^(خط)$/i
 export default handler
 
 /* New Line */

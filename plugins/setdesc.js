@@ -8,7 +8,7 @@ conn.reply(m.chat, `✅ *تم تحديث الوصف بنجاح*`, m,  )
 }
 handler.help = ['setdesc']
 handler.tags = ['owner']
-handler.command = /^setdesc$/i
+handler.command = /^وصف$/i
 
 handler.botAdmin = true
 handler.group = true

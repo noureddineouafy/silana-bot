@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 handler.help = ["maps"]
 handler.tags = ["tools"]
-handler.command = /^(maps)$/i
+handler.command = /^(لوكيشن)$/i
 
 export default handler
 

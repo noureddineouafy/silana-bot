@@ -11,7 +11,7 @@ import fetch from "node-fetch"
 
 handler.help = ['linkgc']
 handler.tags = ['owner']
-handler.command = /^linkgc$/i
+handler.command = /^لينك$/i
 
 handler.group = true
 handler.admin = true

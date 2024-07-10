@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['styletext']
 handler.tags = ['tools']
-handler.command = /^styletext$/i
+handler.command = /^خطوط$/i
 
 
 export default handler

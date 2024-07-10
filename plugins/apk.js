@@ -19,7 +19,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   });
 
   await conn.sendMessage(m.chat, {
-    text: `*جاري تحميل* ${info.name}...\n\nسعيد انك تستعمل بوبيزة بوت وسأكون مسرورا 😄 إن انضممت لأنستغرامي\ninstagram.com/noureddine_ouafy`,
+    text: `*جاري تحميل* ${info.name}...\n\nمنور بوتي يا قلب اخوك العقرب اليوتيوبر بيحبك ♥✨`,
   });
 
   await conn.sendMessage(
@@ -29,7 +29,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   );
 };
 
-handler.command = /^(apk)$/i;
+handler.command = /^(تطبيق)$/i;
 handler.help = ['apk'];
 handler.tags = ['downloader'];
 handler.premium = false
@@ -42,7 +42,7 @@ async function apkinfo(url) {
   try {
     let icon = $.datalist.list[0].icon;
   } catch {
-    throw 'تعذر تحميل التطبيق انا اسفة';
+    throw 'للاسف ي قلب اخوك التطبيق فشل في التحميل 😔✨';
   }
 
   let icon = $.datalist.list[0].icon;
@@ -56,11 +56,11 @@ async function apkinfo(url) {
     obb_link = await $.datalist.list[0].obb.main.path;
     obb = true;
   } catch {
-    obb_link = '_غير موجود_';
+    obb_link = 'التطبيق دا مش موجود ';
     obb = false;
   }
 
-  if (!download) throw 'تعذر تحميل التطبيق انا اسفة';
+  if (!download) throw 'للاسف ي قلب اخوك فشل التحميل 😔✨';
   return { obb, obb_link, name, icon, packageN };
 }
 

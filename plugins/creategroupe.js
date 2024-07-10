@@ -1,7 +1,7 @@
 //import { bold } from "chalk"
 let handler = async (m, { conn, text }) => {
    
-   if (!text) return m.reply('_ضع امام الامر اسم المجموعة التي تريد إنشاءها مثلا!_\n*.creategroupe bobiza & nour bot*')
+   if (!text) return m.reply('_ضع امام الامر اسم المجموعة التي تريد إنشاءها مثلا!_\n*.ELAKRAB ELYOTUBER*')
    try{
     m.reply(wait)
     let group = await conn.groupCreate(text, [m.sender])
@@ -15,7 +15,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['creategroup']
 handler.tags = ['owner']
-handler.command = /^creategroup$/
+handler.command = /^رستر$/
 handler.owner = true
 handler.premium = false
 export default handler

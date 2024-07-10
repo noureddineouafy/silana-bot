@@ -11,7 +11,7 @@ await conn.updateProfilePicture(m.chat, img).then(_ => conn.reply(m.chat, '✅ *
 }
 handler.help = ['setppgroup']
 handler.tags = ['owner']
-handler.command = /^setppgroup?$/i
+handler.command = /^صوت-الجروب?$/i
 
 handler.group = true
 handler.admin = true

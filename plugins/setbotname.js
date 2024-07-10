@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 handler.help = ['setbotname']
 handler.tags = ['owner']
-handler.command = /^(setbotname)$/i
+handler.command = /^(اسم-البوت)$/i
 
 handler.owner = true
 

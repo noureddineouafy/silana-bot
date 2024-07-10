@@ -71,7 +71,7 @@ let handler = async (m, {
 }
 handler.help = ["pixellab"]
 handler.tags = ["downloader"]
-handler.command = /^(plp|pixellab)$/i
+handler.command = /^(بكسلاب)$/i
 export default handler
 
 /* New Line */

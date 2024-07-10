@@ -9,7 +9,7 @@ let handler = async (m, { conn, isROwner, text }) => {
 
 handler.help = ['restart']
 handler.tags = ['owner']
-handler.command = ['restart'] 
+handler.command = ['اعاده'] 
 
 handler.owner = true
 

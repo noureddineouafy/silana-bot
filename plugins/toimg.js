@@ -37,7 +37,7 @@
 
  handler.help = ['toimg']
  handler.tags = ['sticker']
- handler.command = ['toimg']
+ handler.command = ['لصوره']
 
  
 

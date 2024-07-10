@@ -17,7 +17,7 @@ m.reply(`*Bot Uptime*\n${muptime}`)
 }
 handler.help = ['runtime']
 handler.tags = ['infobot']
-handler.command = ['runtime']
+handler.command = ['وقت-التشغيل']
 
 export default handler
 

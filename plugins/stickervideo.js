@@ -27,7 +27,7 @@ thumbnail: await( await conn.getFile(data.url)).data
   }
  }}, { quoted: m })
         } else {
-            await m.reply("مثال : \n .stickervideo car|1|bobiza the best bot\n" + data)
+            await m.reply("مثال : \n .stickervideo car|1|Elakreb the best bot\n" + data)
         }
     } catch (e) {
         await m.reply('error')
@@ -35,7 +35,7 @@ thumbnail: await( await conn.getFile(data.url)).data
 }
 handler.help = ["stickervideo"]
 handler.tags = ["sticker"]
-handler.command = /^(stickervideo|svideo)$/i
+handler.command = /^(لملصق|svideo)$/i
 export default handler
 
 async function getTemplateImageUrl(input, number, text) {

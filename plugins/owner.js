@@ -2,11 +2,8 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn }) => {
   let caption = `
 *「 معلومات عن صاحب البوت 」*
-
+مرحبًا! أنا العقرب، يوتيوبر ومبرمج ومطور بوتات. أعمل على تقديم محتوى تقني مميز وتعليمي على قناتي، وأشارككم آخر تطورات البرمجة وتطوير البوتات. تابعوني لتتعلموا المزيد عن هذا العالم المثير!
 *Number :*\nwa.me/201028085788
-
-*youtube:*\nhttps://www.youtube.com/@Elakrab
-
 
 `.trim()
   m.reply(caption)
