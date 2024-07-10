@@ -10,21 +10,21 @@ global.setting = {
 
 global.owner = [
 ['201028085788', 'ELAKRAB ELYOTUBER ', true],
-['201028085788', 'ELAKRAB ELYOTUBER', false],
-['201028085788', 'ELAKRAB ELYOTUBER', false]
+['201028085788', 'Elakreb ELYOTUBER ', false],
+['201143638030', 'bot', false]
 ]
 
 global.info = {
  nomerbot: '201028085788',
  pairingNumber: '201028085788',
- nameown: 'ELAKRAB ELYOTUBER',
+ nameown: 'ELAKRAB ELYOTUBER ',
  nomerown: '201028085788',
  packname: 'sticker by ',
- author: 'ELAKRAB ELYOTUBER',
+ author: 'Elakreb ',
  namebot: 'ꜱɪʟᴀɴᴀ',
- wm: ''-'_꩜ ELAKRAB ELYOTUBER ꩜_'-'',
+ wm: ''-'_꩜ elakreb 𝘣𝘰𝘵 ꩜_'-'',
  stickpack: 'Whatsapp',
- stickauth: 'ꜱɪʟᴀɴᴀ ʙᴏᴛ '
+ stickauth: 'elakreb ʙᴏᴛ '
 }
 
 // Thumbnail 
@@ -46,10 +46,12 @@ global.url = {
 
 // Sosmed
 global.url = {
- sig: 'https://atom.bio/elakrabelyotyobr',
- sgh:  'https://www.youtube.com/@Elakrab',
- sgc: 'https://whatsapp.com/channel/0029VahbMZl4tRrkdpJrCv2f'
+ sig: 'https://instagram.com/noureddine_ouafy',
+ sgh:  'https://github.com/noureddineouafy',
+ sgc: 'https://chat.whatsapp.com/DABxracGsi5CQMd5d1N1j7'
 }
+
+global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
 
 // Info Wait
 global.msg = {
