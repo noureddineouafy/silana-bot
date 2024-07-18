@@ -17,7 +17,7 @@ let caption = `*˼‏❖˹┇⇠『السؤال ${command.toUpperCase()}』*
  *「✧|────✦❯◇❮✦────|✧」*
 > استخدم انسحب للأنسحاب‼️
 *✧━ • ━ 「 ✤ 」 ━ • ━✧*
-> ❯⏐ 𝐵𝛩𝑇 𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴
+> ❯⏐ ᎬᏞᎯᏦᎡᎬᏰ !
      `.trim()
     conn.tebakbendera[id] = [
         await conn.sendFile(m.chat, json.img, '', caption, m),
@@ -30,6 +30,6 @@ let caption = `*˼‏❖˹┇⇠『السؤال ${command.toUpperCase()}』*
 }
 handler.help = ['سيارات']
 handler.tags = ['new']
-handler.command = /^سيارات/i
+handler.command = /^عربيه/i
 
 export default handler
