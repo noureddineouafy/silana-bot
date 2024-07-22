@@ -73,6 +73,7 @@
     "gemini-ai": "*",
     "node-gtts": "*",
     "ytdl-core":"*",
+    "api-dylux":"*",
     "@bochilteam/scraper-sosmed":"*",
     "@bochilteam/scraper":"*",
     "yargs": "^17.7.1"
