@@ -503,8 +503,8 @@ export async function participantsUpdate({ id, participants, action }) {
                 let gpname = await this.getName(id)
                                               
                 for (let user of participants) {
-                    let pp = profil 
-                    let ppgc = profil
+                    let pp = media.profil 
+                    let ppgc = media.profil
                     
                     try {
                         pp = await this.profilePictureUrl(user, 'image')
@@ -539,7 +539,7 @@ const canLea = await new canvafy.WelcomeLeave()
     
 let xnxx = action === 'add' ? canWel : canLea
 */
-let xnxx = url.thumbnail
+let xnxx = media.thumbnail
 if (_wel.gcImg) {
 
     this.sendMessage(id, {
@@ -562,7 +562,7 @@ if (_wel.gcImg) {
 
     this.sendMessage(id, {
         video: {
-            url: action === 'add' ? wel : good
+            url: action === 'add' ? media.wel : media.bye
         },
         gifPlayback: true,
         caption: text,
@@ -704,7 +704,7 @@ let msg = {
       externalAdReply: {
       title: '✖️ Y O U R  N O T  A C C E S S',
       body: '',
-      thumbnailUrl: url.akses,
+      thumbnailUrl: media.akses,
       sourceUrl: url.sgc,
       mediaType: 1,
       renderLargerThumbnail: true
