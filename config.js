@@ -28,7 +28,7 @@ global.info = {
 }
 
 // Thumbnail 
-global.url = {
+global.media = {
  profil: 'https://i.ibb.co/3Fh9V6p/avatar-contact.png',
  did: 'https://telegra.ph/file/fdc1a8b08fe63520f4339.jpg',
  rules: 'https://telegra.ph/file/afcfa712bd09f4fcf027a.jpg',
