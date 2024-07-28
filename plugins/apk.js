@@ -7,7 +7,6 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 
 
         if (res.size > 993000000) {
-            m.react(error)
             throw '*ملف APK كبير جدًا. الحد الأقصى لحجم التنزيل هو 990 ميجابايت*.';
           }
 
