@@ -1,20 +1,20 @@
 {
   "users": {
-    "6282228545461@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "exp": 0,
       "limit": 0
     },
-    "6282285357346@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "exp": null,
       "limit": null,
       "delay": 1709519073082
     },
-    "212717457920@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "exp": 1206,
       "limit": 0,
       "delay": 1711118251635
     },
-    "212693227969@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "exp": 21,
       "limit": 0
     },
@@ -22,13 +22,13 @@
       "exp": 6,
       "limit": 0
     },
-    "212690552925@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "exp": 10,
       "limit": 0
     }
   },
   "chats": {
-    "6282228545461@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "isBanned": false,
       "antiSpam": true,
       "acc": false,
@@ -52,7 +52,7 @@
       "rpgs": false,
       "games": false
     },
-    "6282285357346@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "isBanned": false,
       "antiSpam": true,
       "acc": false,
@@ -76,7 +76,7 @@
       "rpgs": false,
       "games": false
     },
-    "212717457920@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "isBanned": false,
       "antiSpam": true,
       "acc": false,
@@ -100,7 +100,7 @@
       "rpgs": false,
       "games": false
     },
-    "120363270153919557@g.us": {
+    "967772350066@g.us": {
       "isBanned": false,
       "antiSpam": true,
       "acc": false,
@@ -125,7 +125,7 @@
       "games": false,
       "delay": 1711118245790
     },
-    "212693227969@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "isBanned": false,
       "antiSpam": true,
       "acc": false,
@@ -185,7 +185,7 @@
   "msgs": {},
   "sticker": {},
   "settings": {
-    "6282228545461@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "self": false,
       "autoread": true,
       "autoBio": false,
@@ -198,7 +198,7 @@
       "loc": false,
       "autorestart": false
     },
-    "212693227969@s.whatsapp.net": {
+    "967772350066@s.whatsapp.net": {
       "self": false,
       "autoread": true,
       "autoBio": false,
