@@ -15,16 +15,16 @@ global.owner = [
 ]
 
 global.info = {
- nomerbot: '212605784394',
- pairingNumber: '212693227969',
- nameown: 'Nour',
- nomerown: '212717457920',
+ nomerbot: '14168280738',
+ pairingNumber: '14168280738',
+ nameown: 'KingGrey',
+ nomerown: '14168280738',
  packname: 'sticker by ',
- author: 'Noureddine',
- namebot: 'ꜱɪʟᴀɴᴀ',
+ author: 'KingGrey',
+ namebot: 'GloryBot',
  wm: ''-'_꩜ 𝘚𝘪𝘭𝘢𝘯𝘢 𝘣𝘰𝘵 ꩜_'-'',
  stickpack: 'Whatsapp',
- stickauth: 'ꜱɪʟᴀɴᴀ ʙᴏᴛ '
+ stickauth: 'Glory ʙᴏᴛ '
 }
 
 // Thumbnail 
