@@ -46,7 +46,7 @@ global.media = {
 
 // Sosmed
 global.url = {
- sig: 'https://instagram.com/noureddine_ouafy',
+ sig: 'https://www.instagram.com/_assemaldoreh_/',
  sgh:  'https://github.com/noureddineouafy',
  sgc: 'https://chat.whatsapp.com/DABxracGsi5CQMd5d1N1j7'
 }
