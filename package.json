@@ -74,6 +74,7 @@
     "node-gtts": "*",
     "ytdl-core":"*",
     "api-dylux":"*",
+    "buffer":"*",
     "ruhend-scraper":"*",
     "aptoide-scraper":"*",
     "@bochilteam/scraper-sosmed":"*",
