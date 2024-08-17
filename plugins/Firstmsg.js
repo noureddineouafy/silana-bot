@@ -1,7 +1,4 @@
 let handler = async (m, { conn }) => {
-    // التحقق مما إذا كانت خاصية "audios" مفعلة في الدردشة، إذا كانت الدردشة في مجموعة
-    if (m.isGroup && !db.data.chats[m.chat].audios) return
-
     // رابط الملف الصوتي الجديد
     let vn = 'https://files.catbox.moe/vp6xt8.mp3'
     
@@ -27,6 +24,6 @@ let handler = async (m, { conn }) => {
 
 // تحديد الأوامر التي يجب أن يستجيب لها البوت
 handler.customPrefix = /^(hi|hello|سلام|سَلَام|slm|menu|ا|ª|A?$)/i
-handler.command = /^(hi|hello|سلام|سَلَام|slm|meenu|ا|ª|A?$)/i
+handler.command = /^(hi|hello|سلام|سَلَام|slm|menu|ا|ª|A?$)/i
 
 export default handler
