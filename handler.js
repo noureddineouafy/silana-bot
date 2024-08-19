@@ -61,7 +61,7 @@ export async function handler(chatUpdate) {
                 if (!('acc' in chat))
                     chat.acc = false
                 if (!('welcome' in chat))
-                    chat.welcome = false
+                    chat.welcome = true
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
