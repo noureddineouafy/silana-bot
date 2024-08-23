@@ -190,7 +190,7 @@ const connectionOptions = {
     }),
     auth: state,
     browser: ['Linux', 'Chrome', ''],
-    version: [2, 2413, 51],
+    version: [2, 3000, 1015901307],
     getMessage: async (key) => {
         let jid = jidNormalizedUser(key.remoteJid)
         let msg = await store.loadMessage(jid, key.id)
