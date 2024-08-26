@@ -75,8 +75,10 @@
     "ytdl-core":"*",
     "api-dylux":"*",
     "buffer":"*",
+    "g4f":"*",
     "ruhend-scraper":"*",
     "aptoide-scraper":"*",
+    "canvas":"*",
     "@bochilteam/scraper-sosmed":"*",
     "@bochilteam/scraper":"*",
     "yargs": "^17.7.1"
