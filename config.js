@@ -9,8 +9,8 @@ global.setting = {
  }
 
 global.owner = [
-['212717457920', 'Nour', true],
-['212605784394', 'silana', false],
+['212635555723', 'obito', true],
+['201151094460', 'boudy', true],
 ['', '', false]
 ]
 
