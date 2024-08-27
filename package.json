@@ -79,6 +79,8 @@
     "ruhend-scraper":"*",
     "aptoide-scraper":"*",
     "canvas":"*",
+    "@hapi/boom":"*",
+    "qrcode":"*",
     "@bochilteam/scraper-sosmed":"*",
     "@bochilteam/scraper":"*",
     "yargs": "^17.7.1"
