@@ -32,7 +32,7 @@ let handler = async (m, {
 }
 handler.help = ["translate"]
 handler.tags = ["tools"]
-handler.command = /^tr|translate$/i
+handler.command = /^(tr|translate)$/i
 export default handler
 
 async function langList() {
