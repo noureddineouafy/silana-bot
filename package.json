@@ -81,6 +81,7 @@
     "canvas":"*",
     "@hapi/boom":"*",
     "qrcode":"*",
+    "node-yt-dl":"*",
     "google-translate-api-x":"*",
     "@vitalets/google-translate-api":"*",
     "@bochilteam/scraper-sosmed":"*",
