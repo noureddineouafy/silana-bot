@@ -1,10 +1,3 @@
-/*
-wa.me/6282285357346
-github: https://github.com/sadxzyq
-Instagram: https://instagram.com/tulisan.ku.id
-ini wm gw cok jan di hapus
-*/
-
 import './config.js'
 import path, {
     join
@@ -190,7 +183,7 @@ const connectionOptions = {
     }),
     auth: state,
     browser: ['Linux', 'Chrome', ''],
-    version: [2, 3000, 1015901307],
+    version,
     getMessage: async (key) => {
         let jid = jidNormalizedUser(key.remoteJid)
         let msg = await store.loadMessage(jid, key.id)
