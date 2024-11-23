@@ -1,4 +1,4 @@
-const { useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, MessageRetryMap, makeCacheableSignalKeyStore, jidNormalizedUser, PHONENUMBER_MCC } = await import('@adiwajshing/baileys')
+/*const { useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, MessageRetryMap, makeCacheableSignalKeyStore, jidNormalizedUser, PHONENUMBER_MCC } = await import('@adiwajshing/baileys')
 import moment from 'moment-timezone'
 import PhoneNumber from 'awesome-phonenumber'
 import NodeCache from 'node-cache'
@@ -199,4 +199,4 @@ try {
 return fs.statSync(filePath).isFile()
 } catch (err) {
 return false
-}}
+}}/*
